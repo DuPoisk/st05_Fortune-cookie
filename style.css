@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-main-text:'Montserrat', sans-serif;
+  --ff-LuckMessage:'Dancing Script', cursive;
+  --ff-secondary-text:'DM Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  background-repeat: no-repeat;
+  color: #34355B;
+
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.screen1, .screen2 {
+  background-color: #FFFFFF;
+  padding: 4.0rem 6.4rem 6.4rem;
+  
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+h1 {
+  font-family: var(--ff-main-text);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.9rem;
+  max-width: 30.0rem;
+}
+
+p, #btn2 {
+  font-family: var(--ff-secondary-text);
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.0rem;
+  margin: 1.4rem auto 3.0rem;
+}
+
+#btn1 {
+  background-color:#FFFFFF;
+  border: 0rem;
+  border-radius: 90px;  
+}
+
+#btn1:hover {
+  /* background-color:#d3cfcf; */
+  animation: shakeAndFall 1.5s;
+}
+
+.hide {
+  display: none;
+}
+
+/*SCREEN 2 */
+.screen2 h1{
+  margin-bottom: 2rem;
+}
+
+#LuckMessage {
+  font-family: var(--ff-LuckMessage);
+  color: #000000;
+  font-size: 2.0rem;
+  line-height: 2.5rem;
+  width: 31rem;
+  background-color: #E4EDF1 ;
+  
+  border-radius: 0.4rem;
+  padding: 2.0rem;
+  margin: 0rem;  
+
+  animation: slideUp 2s;
+}
+
+#btn2 {
+  background-color:#FF9500;
+  color:#FFFFFF;
+  font-size: 1.0rem;
+  font-weight: 700;
+  
+  padding: 1.4rem;
+  margin-top: 3rem;
+  border-radius: 0.6rem;
+  border: 0px;
+}
+
+#btn2:hover{
+  background-color:#ca7a0a;
+}
+
+/*ANIMATION*/
+@keyframes shakeAndFall {
+  10%, 90% {
+    transform: translate3d(-1px, 0, +2px);
+  }
+  
+  20%, 80% {
+    transform: translate3d(4px, +2px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, -3px);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 2px, 0);
+  }
+}
+
+@keyframes slideUp {
+  from{    
+    transform: scale(0.2,0.2) translateY(65rem);
+  }
+     
+  to{
+    transform: scale(1,1) translateY(0rem);
+  }
+}
