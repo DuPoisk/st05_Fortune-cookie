@@ -5,11 +5,12 @@ Never give up, better things are comming soon, believe, it is true!!!!! :sparkli
 Hey, there is a message for you here... Open the cookie and get your fortune message today. Hope you enjoy it!</p>
 
 ## :sparkles: LAYOUT
-Access the layout on <a href = "https://www.figma.com/file/WtcwJUgKicM26OQLd7C6vo/Biscoito-da-Sorte-(Community)?type=design&node-id=0-1&t=bWRT1HK44GmS3qJa-0"> FIGMA </a>, developed by Rocketseat team.
+
 <span align="center">
  <img src="https://user-images.githubusercontent.com/70992473/236083407-878ff951-4112-4f31-aed9-cc1b82d9a996.png" height="320px" />
  <img src="https://user-images.githubusercontent.com/70992473/236083434-87db4569-8847-4668-8877-986dc6b4e409.png" height="320px" />
 </span>
+Access the layout on <a href = "https://www.figma.com/file/WtcwJUgKicM26OQLd7C6vo/Biscoito-da-Sorte-(Community)?type=design&node-id=0-1&t=bWRT1HK44GmS3qJa-0"> FIGMA </a>, developed by Rocketseat team.
 
 ## 🚀 TECHNOLOGIES
 
