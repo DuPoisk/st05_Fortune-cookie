@@ -57,12 +57,11 @@ p {
 #btn1 {
   background-color:#FFFFFF;
   border: 0rem;
-  border-radius: 90px;  
+  border-radius: 90rem;  
 }
 
 #btn1:hover {
-  /* background-color:#d3cfcf; */
-  animation: shakeAndFall 1.5s;
+  animation: shake 1.5s;
 }
 
 .hide {
@@ -98,7 +97,7 @@ p {
   padding: 1.4rem;
   margin-top: 3rem;
   border-radius: 0.6rem;
-  border: 0px;
+  border: 0rem;
 }
 
 #btn2:hover{
@@ -106,21 +105,21 @@ p {
 }
 
 /*ANIMATION*/
-@keyframes shakeAndFall {
+@keyframes shake {
   10%, 90% {
-    transform: translate3d(-1px, 0, +2px);
+    transform: translate3d(-1rem, 0, 2rem);
   }
   
   20%, 80% {
-    transform: translate3d(4px, +2px, 0);
+    transform: translate3d(4rem, 2rem, 0);
   }
 
   30%, 50%, 70% {
-    transform: translate3d(-4px, 0, -3px);
+    transform: translate3d(-4rem, 0, -3rem);
   }
 
   40%, 60% {
-    transform: translate3d(2px, 2px, 0);
+    transform: translate3d(2rem, 2rem, 0);
   }
 }
 
